@@ -1,0 +1,70 @@
+{
+  "build_script": "tsc --noEmit && vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "IBM Plex Mono",
+        "source": "ofl/ibmplexmono/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "IBM Plex Sans",
+        "source": "ofl/ibmplexsans/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Special Elite",
+        "source": "apache/specialelite/LICENSE.txt",
+        "spdx": "Apache-2.0"
+      }
+    ],
+    "font_files": 18,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/1807915a05c340ec.css",
+        "sha256": "86bd4ae404c7364e85c6111387dc1ad27cc73dc953e341fd736e798346f612b9",
+        "url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&family=Special+Elite&display=swap"
+      }
+    ],
+    "total_font_bytes": 344024,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "avestura/five-nines",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/1807915a05c340ec.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/132ba860efc49c6cfae7.woff2",
+    ".packaging/google-fonts/files/13ff14c8cbbde52dd267.woff2",
+    ".packaging/google-fonts/files/245a9a663e93937931ad.woff2",
+    ".packaging/google-fonts/files/2a73cdecea5ce99cd0e4.woff2",
+    ".packaging/google-fonts/files/560980fcddc4e6f493d8.woff2",
+    ".packaging/google-fonts/files/6d5e7fb80500edbb2ccc.woff2",
+    ".packaging/google-fonts/files/796754f6fa2c0fca3404.woff2",
+    ".packaging/google-fonts/files/7d93fdcde83048f9d456.woff2",
+    ".packaging/google-fonts/files/7e3d7e3c7de8e8f704e6.woff2",
+    ".packaging/google-fonts/files/86628368fe0c7cce861c.woff2",
+    ".packaging/google-fonts/files/98379468de487654d887.woff2",
+    ".packaging/google-fonts/files/99228c3b93e78c59da72.woff2",
+    ".packaging/google-fonts/files/ae5fc1eadb0588e621b5.woff2",
+    ".packaging/google-fonts/files/d1b233760bed303a5cb5.woff2",
+    ".packaging/google-fonts/files/f582230492bfd11eff7b.woff2",
+    ".packaging/google-fonts/files/f9c74283b1693b2d9c4d.woff2",
+    ".packaging/google-fonts/files/fd3dd31c82271ef24699.woff2",
+    ".packaging/google-fonts/files/fd8b74284fe6ff9705c0.woff2",
+    ".packaging/google-fonts/licenses/IBM-Plex-Mono-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/IBM-Plex-Sans-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Special-Elite-Apache-2.0.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "ed7a2ca20eb0005250274f1edc813dbfe48e1b4a"
+}
